@@ -18,3 +18,9 @@ lab3:
         According to lab2, command in each section will be running by running makefile.
         So when in makefile3, by running default section "all", will compile and generate "runme".
 
+lab4:
+    *How to run:
+        make -f makefile4 command_ls
+    *explanation:
+        1. By specifying section name following the makefile name, that section is gonna be run.
+        2. When one section is called to be running, the sub-section names follows the section name will be running one by one.
