@@ -22,5 +22,6 @@ lab4:
     *How to run:
         make -f makefile4 command_ls
     *explanation:
-        1. By specifying section name following the makefile name, that section is gonna be run.
-        2. When one section is called to be running, the sub-section names follows the section name will be running one by one.
+        1. By specifying section namei(in this example, it is "command_ls") following the makefile name, that section is gonna be run.
+        2. When one section is called to be running, the sub-section name(in this example, it is "tag_ls") follows the section name(command_ls) will be running one by one.
+        3. The sub-section(tag_ls) will be called AUTOMATICALLY if the parent section(commabd_ls) is called.
