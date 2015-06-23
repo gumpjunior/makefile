@@ -1,0 +1,20 @@
+lab1:
+    *How to run:
+        make -f makefile1
+    *explanation:
+        Only "clean" exists in makefile1, so section "clean" will be running automatically.
+
+lab2:
+    *How to run:
+        make -f makefile2
+    *explanation:
+        In section "clean", two commands exist: "ls", "rm".
+	All commands within one section will be executed one by one.
+	
+lab3:
+    *How to run:
+        make -f makefile3
+    *explanation:
+        According to lab2, command in each section will be running by running makefile.
+        So when in makefile3, by running default section "all", will compile and generate "runme".
+

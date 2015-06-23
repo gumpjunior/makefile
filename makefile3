@@ -1,0 +1,4 @@
+all:
+	gcc main.c my_header.h my_header2.h -o runme
+clean:
+	rm *o runme
