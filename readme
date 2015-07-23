@@ -1,4 +1,1 @@
-This repo is for learning how to write makefile.
-Nothing is under master branch.
-One branch will be created for each lab.
-
+This branch is to learn how to include .c and .h files across different dirs in compilation.
